@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(78, 99, 218);
+    padding: 2rem;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+main form h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+main form input {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0.5rem 0;
+}
+
+main section table th {
+    background: rgb(191, 228, 241);
+    font-size: 1.5rem;
+}
+
+main section table td {
+    background: rgb(127, 208, 238);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+main section p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+}
